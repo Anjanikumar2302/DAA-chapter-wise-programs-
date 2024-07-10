@@ -1,0 +1,7 @@
+def find_max_in_sorted_list(input_list):
+    if not input_list:
+       return None
+    sorted_list=sorted(input_list)
+    return sorted_list[-1]
+input_list_empty=[3,3,3,3,3]
+print(find_max_in_sorted_list(input_list_empty))
